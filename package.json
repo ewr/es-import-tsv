@@ -1,0 +1,30 @@
+{
+  "name": "es-import-tsv",
+  "version": "0.1.0",
+  "description": "Read a TSV and import the data to Elasticsearch",
+  "main": "index.js",
+  "dependencies": {
+    "csv": "^0.4.1",
+    "elasticsearch": "^3.0.1",
+    "timezone": "^0.0.38",
+    "yargs": "^1.3.3",
+    "underscore": "~1.7.0",
+    "debug": "~2.1.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-mocha-test": "^0.12.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Richardson",
+  "license": "apache2",
+  "private": true,
+  "bin": {
+    "es-import-tsv": "./runner-cmd"
+  }
+}
