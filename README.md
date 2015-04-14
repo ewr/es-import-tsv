@@ -1,7 +1,9 @@
 # es-import-tsv
 
 Simple example of creating a pipeline that reads in a TSV file, does some
-basic cleaning, and indexes the results into Elasticsearch.
+basic cleaning, and indexes the results into Elasticsearch. The actual 
+code is in [scripts/import_tsv.coffee](scripts/import_tsv.coffee), but 
+Coffeescript isn't required to run the compiled JS code.
 
 Installation:
 
